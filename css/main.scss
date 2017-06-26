@@ -1,0 +1,25 @@
+@import "abstract/variables";
+@import "base/reset";
+@import "base/fonts";
+@import "base/typography";
+@import "base/icons";
+@import "components/social_links";
+@import "components/abilities_card";
+@import "components/inputs";
+@import "components/video";
+@import "layout/header";
+@import "layout/footer";
+@import "sections/preview";
+@import "sections/abilities";
+@import "sections/subscribe";
+@import "sections/gallery";
+@import "sections/contact";
+.section{
+  font-size: 16px;
+  @media only screen and (max-width: $screen-sm-max) {
+    font-size: 15px;
+  }
+  @media only screen and (max-width: $screen-xs-max) {
+    font-size: 13px;
+  }
+}

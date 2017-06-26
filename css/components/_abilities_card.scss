@@ -1,0 +1,41 @@
+.abilities_card{
+    text-align: center;
+    margin-top: 60px;
+    @media only screen and (max-width: $screen-sm-max) {
+        margin-top: 40px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+        margin-top: 25px;
+    }
+    &_icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 41px;
+        width: 98px;
+        height: 98px;
+        border-radius: 50px;
+        background-color: $sectionActiveColor;
+        margin: 0 auto;
+        color: $sectionLinksColor;
+        @media only screen and (max-width: $screen-sm-max) {
+            font-size: 38px;
+            width: 92px;
+            height: 92px;
+        }
+        @media only screen and (max-width: $screen-xs-max) {
+            font-size: 33px;
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .section_title{
+        margin-top: 30px;
+        @media only screen and (max-width: $screen-sm-max) {
+            margin-top: 20px;
+        }
+        @media only screen and (max-width: $screen-xs-max) {
+            margin-top: 13px;
+        }
+    }
+}

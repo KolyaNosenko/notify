@@ -1,0 +1,29 @@
+.section_gallery{
+  padding: 60px 0;
+  @media only screen and (max-width: $screen-sm-max) {
+    padding: 40px 0;
+  }
+  @media only screen and (max-width: $screen-xs-max) {
+    padding: 25px 0;
+  }
+  text-align: center;
+  .section_title{
+    font-size: 18px;
+    margin-top: 30px;
+    @media only screen and (max-width: $screen-sm-max) {
+      margin-top: 20px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      margin-top: 13px;
+    }
+  }
+  .person_carousel{
+    margin-top: 30px;
+    @media only screen and (max-width: $screen-sm-max) {
+      margin-top: 20px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      margin-top: 13px;
+    }
+  }
+}

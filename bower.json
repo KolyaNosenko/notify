@@ -1,0 +1,20 @@
+{
+  "name": "Notify",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "owl.carousel": "owl-carousel2#^2.2.1",
+    "font-awesome": "^4.7.0"
+  }
+}

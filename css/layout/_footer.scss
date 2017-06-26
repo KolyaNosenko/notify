@@ -1,0 +1,41 @@
+.footer{
+  background-color: $footerColor;
+  padding: 60px 0;
+  @media only screen and (max-width: $screen-sm-max) {
+    padding: 40px 0;
+  }
+  @media only screen and (max-width: $screen-xs-max) {
+    padding: 25px 0;
+  }
+  &_list_items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: $screen-xs-max) {
+      flex-direction: column;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+      font-size: 14px;
+    }
+    .list_item{
+      margin-right: 50px;
+      @media only screen and (max-width: $screen-sm-max) {
+        margin-right: 35px;
+      }
+      @media only screen and (max-width: $screen-xs-max) {
+        margin-right: 0;
+      }
+      &:last-of-type{
+        margin-right: 0;
+      }
+      a{
+        color: $sectionParagraphColor;
+        &:hover{
+          color: $sectionLinksColor;
+          opacity: 1.0;
+        }
+      }
+    }
+  }
+}

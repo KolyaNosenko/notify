@@ -1,0 +1,21 @@
+.social_links{
+    list-style-type: none;
+    margin-top: 26px;
+    display: flex;
+    @media only screen and (max-width: $screen-sm-max) {
+        margin-top: 17px;
+    }
+    @media only screen and (max-width: $screen-xs-max) {
+        margin-top: 11px;
+    }
+    .social_link{
+        text-align: center;
+        a{
+            display: block;
+            border-radius: 50px;
+            &:hover{
+                background-color: $sectionActiveColor;
+            }
+        }
+    }
+}
